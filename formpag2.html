@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questionário</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      height: 100vh;
+    }
+    .container {
+      padding: 30px;
+      max-width: 800px;
+      width: 100%; 
+      text-align: center; 
+      margin: auto;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+    }
+    .small-text {
+      font-size: 14px;
+      margin-bottom: 30px;
+      color: white;
+    }
+    .form-group {
+      text-align: left;
+      margin-bottom: 20px; 
+    }
+    .form-label {
+      color: white;
+      font-weight: 600;
+    }
+    .form-control, .form-select {
+      width: 100%; 
+      max-width: 100%; 
+    }
+    .hidden {
+      display: none;
+    }
+    .btn {
+      background-color: green;
+      color: white;
+      font-weight: 600;
+      margin-top: 2%;
+      width: 50%; 
+      max-width: 150px; 
+      transition: color 0.3s;
+
+    }
+    .btn:hover {
+      background-color: green;
+      color: black;
+    }
+    .btn:disabled {
+      background-color: grey;
+      color: white;
+      cursor: not-allowed;
+    }
+    @media (min-width: 1440px) {
+      .container {
+      padding: 30px;
+      transform: scale(1.2);
+      max-width: 800px; 
+      width: 100%;
+      text-align: center;
+      margin: auto;
+    }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Agora, precisamos saber sobre seus objetivos e rotina.</h1>
+    <p class="small-text">Aqui, você deve responder com as opções que mais se adequam às suas metas e cotidiano.</p>
+    
+    <form id="questionnaireForm">
+      <div class="form-group">
+        <label for="principal" class="form-label">1. Qual é o seu principal objetivo?</label>
+        <select class="form-select" id="principal" required>
+            <option disabled selected value="">Escolha uma opção</option>
+            <option value="perder_gordura">Perder gordura corporal</option>
+            <option value="aumentar_massa">Aumentar a massa muscular</option>
+            <option value="ambos">Perder gordura corporal e aumentar a massa muscular</option>
+            <option value="rotina_saudavel">Apenas uma rotina saudável</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="atividades" class="form-label">2. Faz atividades físicas?</label>
+            <select id="atividades" class="form-select" required>
+              <option disabled selected value="">Escolha uma opção</option>
+              <option value="5x_semana">Sim, pelo menos 5x na semana</option>
+              <option value="4x_semana">Sim, pelo menos 4x na semana</option>
+              <option value="3x_semana">Sim, pelo menos 3x na semana</option>
+              <option value="2x_semana">Sim, pelo menos 2x na semana</option>
+              <option value="1x_semana">Sim, pelo menos 1x na semana</option>
+              <option value="nao_atividades">Não faço atividades físicas</option>
+            </select>
+      </div>
+      <div class="form-group">
+        <label for="musculacao" class="form-label">3. Faz treino de musculação?</label>
+            <select id="musculacao" class="form-select" required>
+              <option disabled selected value="">Escolha uma opção</option>
+              <option value="5x_semana">Sim, pelo menos 5x na semana</option>
+              <option value="4x_semana">Sim, pelo menos 4x na semana</option>
+              <option value="3x_semana">Sim, pelo menos 3x na semana</option>
+              <option value="2x_semana">Sim, pelo menos 2x na semana</option>
+              <option value="1x_semana">Sim, pelo menos 1x na semana</option>
+              <option value="nao_musculacao">Não faço treinos de musculação</option>
+            </select>
+      </div>
+      <div class="form-group">
+        <label for="tempo_meta" class="form-label">4. Em quanto tempo você pretende atingir sua meta?</label>
+            <select id="tempo_meta" class="form-select" required>
+              <option disabled selected value="">Escolha uma opção</option>
+              <option value="menor_tempo">No menor tempo possível (geralmente inclui rotina de difícil adaptação)</option>
+              <option value="tempo_normal">Em tempo normal (geralmente inclui rotina de fácil adaptação)</option>
+            </select>
+      </div>
+      <div class="form-group">
+        <label for="restricao" class="form-label">5. Você tem alguma alergia, restrição alimentar ou alimentos que não consome?</label>
+            <select id="restricao" class="form-select" required onchange="toggleRestricaoInput()">
+              <option disabled selected value="">Escolha uma opção</option>
+              <option value="sim">Sim, tenho restrições</option>
+              <option value="nao">Não tenho restrições</option>
+            </select>
+      </div>
+      <div class="form-group hidden" id="restricaoDiv">
+        <label for="restricaotipo" class="form-label">6. Qual é a sua restrição?</label>
+        <input type="text" class="form-control" id="restricaotipo" placeholder="Ex: Camarão, lactose..." pattern="[0-9]+(\.[0-9]{0,2})?" title="Informe os alimentos que não consome" required>
+      </div>
+      <div>
+        <button type="submit" class="btn" id="continueButton" disabled>Continuar</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-EF5rRw+CwH2ZR/DNXVioJQaPdNL5mBFA+YyyAax8pjaOIOY9Ffxn/fTzKahD8zLu" crossorigin="anonymous"></script>
+  <script>
+    function toggleRestricaoInput() {
+      const restricaoSelect = document.getElementById('restricao');
+      const restricaoDiv = document.getElementById('restricaoDiv');
+
+      if (restricaoSelect.value === 'sim') {
+        restricaoDiv.classList.remove('hidden');
+      } else {
+        restricaoDiv.classList.add('hidden');
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.getElementById('questionnaireForm');
+      const continueButton = document.getElementById('continueButton');
+      
+      form.addEventListener('input', function() {
+        let allFilled = true;
+        const inputs = form.querySelectorAll('select[required]');
+        
+        inputs.forEach(input => {
+          if (!input.value) {
+            allFilled = false;
+          }
+        });
+        
+        continueButton.disabled = !allFilled;
+      });
+      
+      form.addEventListener('submit', function(event) {
+        event.preventDefault(); 
+        window.location.href = 'resultado.html'; 
+      });
+    });
+  </script>
+</body>
+</html>

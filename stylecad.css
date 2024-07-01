@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url('fundocad.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative;
+}
+
+.textos1{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin-top: 15%;
+  position: absolute;
+  transform: scale(1.1);
+  left: 50px; 
+  top: 25%; 
+  transform: translateY(-50%) scale(1.1);
+}
+
+.crie{
+  font-weight: 700;
+  font-size: 4vw;
+}
+
+.textos1 p{
+  font-weight: 600;
+  font-size: 1.5vw;
+
+}
+
+.trase{
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.cadastro {
+  max-width: 700px;
+  height: 90%;
+  margin: auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.18);
+  border-radius: 40px;
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center; 
+  position: relative; 
+}
+
+.cadastro label {
+  color: white;
+  max-width: 150px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+  margin-bottom: 0.5rem;
+  margin-left: 18px;
+}
+
+.cadastro input {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  width: 25vw !important;
+  border-radius: 20px;
+  font-size: 0.9rem; 
+  padding: 0.7rem; 
+  margin-bottom: 0; 
+}
+
+.cadastro button {
+  border-radius: 30px;
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 1vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  transition: background-color 0.3s, color 0.3s;
+  align-self: center; 
+  width: 50%; 
+  max-width: 150px; 
+  padding: 1rem; 
+  margin-top: 2%;
+}
+
+
+  .cadastro button:hover {
+    background-color: white;
+    color: black;
+}
+
+.container{
+  position: relative;
+  height: 100vh;
+}
+.caixa{
+  transform: scale(0.85); 
+  position: absolute;
+  right: 25px;
+  top: 48%; 
+  transform: translateY(-50%) scale(0.85); 
+
+}
+
+.recado{
+  margin-top: 6vh;
+  font-weight: 300 !important;
+  font-size: 1vw !important;
+}
+
+.criemob {
+  display: none;
+}  
+.registromob {
+  display: none;
+}
+ 
+
+@media (max-width: 1000px) {
+  .recado{
+    display: none;
+    
+  }
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .criemob {
+    display: none;
+  }  
+  .registromob {
+    display: none;
+  }
+  
+  .textos1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center; 
+    height: 100%; 
+    margin-top: 180px;
+  }
+  
+  .crie {
+    text-align: center; 
+    margin-right: 130px;
+    font-size: 2.8vw;
+  }  
+  .registro {
+    margin-top: 450px;
+    margin-right: 120px;
+  }
+
+  .cadastro label {
+    color: white;
+    max-width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5vw;
+    margin-bottom: 0.5rem; 
+    margin-left: 18px;
+  }
+  .cadastro button {
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: background-color 0.3s, color 0.3s;
+    align-self: center; 
+    width: 50%; 
+    max-width: 150px; 
+    padding: 0.8rem; 
+    margin-top: 2%;
+  }
+
+  .cadastro input {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    width: 35vw !important;
+    border-radius: 20px;
+    font-size: 0.9rem; 
+    padding: 0.7rem; 
+    margin-bottom: 0; 
+  }
+}
+
+@media (max-width: 900px) {
+  .recado{
+    display: none;
+    
+  }
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .textos1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center; 
+    height: 100%; 
+    margin-top: 180px;
+  }
+  
+  .crie {
+    text-align: center; 
+    margin-right: 125px;
+    font-size: 3vw !important;
+  }  
+  .registro {
+    margin-top: 450px;
+    margin-right: 120px;
+  }
+
+  .cadastro label {
+    color: white;
+    max-width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.8vw;
+    margin-bottom: 0.5rem; 
+    margin-left: 18px;
+  }
+
+  .cadastro button {
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: background-color 0.3s, color 0.3s;
+    align-self: center; 
+    width: 50%; 
+    max-width: 150px; 
+    padding: 1rem; 
+    margin-top: 2%;
+  }
+  .cadastro input {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    width: 53vh !important;
+    border-radius: 20px;
+    font-size: 0.9rem; 
+    padding: 0.7rem; 
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .container{
+    margin-left: 10%;
+  }
+  .criemob {
+    display: none;
+  }  
+  .registromob {
+    display: none;
+  }
+}
+
+@media (max-width: 765px) {
+  .container{
+    margin-left: 16%;
+  }
+  .criemob {
+    display: none;
+  }  
+  .registromob {
+    display: none;
+  }
+  .cadastro input {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    width: 50vw !important;
+    border-radius: 20px;
+    font-size: 0.9rem; 
+    padding: 0.7rem; 
+    margin-bottom: 0; 
+  }
+
+  .cadastro button {
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: background-color 0.3s, color 0.3s;
+    align-self: center; 
+    width: 50%; 
+    max-width: 150px; 
+    padding: 1rem; 
+    margin-top: 2%;
+  }
+
+  .textos1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    height: 100%; 
+    margin-top: 190px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container{
+    margin-left: 16%;
+  }
+  .criemob {
+    display: none;
+  }  
+  .registromob {
+    display: none;
+  }
+  .cadastro input {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    width: 50vw !important;
+    border-radius: 20px;
+    font-size: 0.9rem; 
+    padding: 0.7rem; 
+    margin-bottom: 0; 
+  }
+
+  .cadastro button {
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: background-color 0.3s, color 0.3s;
+    align-self: center; 
+    width: 50%; 
+    max-width: 150px; 
+    padding: 1rem; 
+    margin-top: 2%;
+  }
+
+  .textos1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    height: 100%;
+    margin-top: 190px;
+  }
+
+  .cadastro label {
+    color: white;
+    max-width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.4vw;
+    margin-bottom: 0.5rem;
+    margin-left: 18px;
+  }
+  .cadastro input {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    width: 53vh !important;
+    border-radius: 20px;
+    font-size: 0.9rem; 
+    padding: 0.7rem; 
+    margin-bottom: 0;
+  }
+
+  .crie {
+    text-align: center; 
+    margin-right: 125px;
+    font-size: 3.5vh !important;
+  }  
+  .registro {
+    margin-top: 470px;
+    margin-right: 120px;
+    font-size: 2vh !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .container{
+    margin-left: 16%;
+  }
+  .criemob {
+    display: none;
+  }  
+  .registromob {
+    display: none;
+  }
+  .cadastro input {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    width: 53vh !important;
+    border-radius: 20px;
+    font-size: 0.9rem; 
+    padding: 0.7rem; 
+    margin-bottom: 0; 
+  }
+
+  .cadastro button {
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 2.5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: background-color 0.3s, color 0.3s;
+    align-self: center; 
+    width: 50%; 
+    max-width: 150px; 
+    padding: 1rem; 
+    margin-top: 2%;
+  }
+
+  .textos1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center; 
+    height: 100%;
+    margin-top: 190px;
+  }
+
+  .cadastro label {
+    color: white;
+    max-width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2vh;
+    margin-bottom: 0.5rem; 
+    margin-left: 18px;
+  }
+  .crie {
+    text-align: center; 
+    margin-right: 125px;
+    font-size: 3.5vh !important;
+  }  
+  .registro {
+    margin-top: 490px;
+    margin-right: 120px;
+    font-size: 2vh !important;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .container{
+    margin-left: 20%;
+  }
+  .criemob {
+    display: none;
+  }  
+  .registromob {
+    display: none;
+  }
+  .cadastro input {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    width: 60vw !important;
+    border-radius: 20px;
+    font-size: 0.9rem; 
+    padding: 0.7rem; 
+    margin-bottom: 0; 
+  }
+
+  .cadastro button {
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 4vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: background-color 0.3s, color 0.3s;
+    align-self: center; 
+    width: 50%; 
+    max-width: 150px; 
+    padding: 1rem; 
+    margin-top: 2%;
+  }
+
+  
+}
+
+@media (max-width: 360px) {
+  .container{
+    margin-left: 30%;
+
+  }
+  .cadastro input {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    width: 65vw !important;
+    border-radius: 20px;
+    font-size: 0.9rem; 
+    padding: 0.5rem; 
+    margin-bottom: 0;
+  }
+
+  .cadastro button {
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: background-color 0.3s, color 0.3s;
+    align-self: center; 
+    width: 100%; 
+    max-width: 150px; 
+    padding: 0.8rem; 
+    margin-top: 2%;
+  }
+
+  .crie {
+    display: none;
+  }  
+  .registro {
+    display: none;
+  }
+
+  .criemob {
+    display: flex;
+    font-size: 3.5vh !important;
+    margin-top: 12%;
+    font-weight: 600;
+  }  
+  .registromob {
+    display: flex;
+    font-size: 2vh !important;
+    margin-top: 450px;
+    margin-right: auto;
+  }
+  .textosmob{
+    align-content: center;
+    margin-right: 35%;
+  }
+}
