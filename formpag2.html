@@ -59,7 +59,6 @@
       width: 50%; 
       max-width: 150px; 
       transition: color 0.3s;
-
     }
     .btn:hover {
       background-color: green;
@@ -163,36 +162,36 @@
         restricaoInput.required = false;
         restricaoInput.value = '';
       }
+
+      validateForm();
     }
 
     document.addEventListener('DOMContentLoaded', function() {
       const form = document.getElementById('questionnaireForm');
       const continueButton = document.getElementById('continueButton');
       
-      form.addEventListener('input', function() {
-        let allFilled = true;
-        const inputs = form.querySelectorAll('select[required]');
-        
-        inputs.forEach(input => {
-          if (!input.value) {
-            allFilled = false;
-          }
-        });
-        
-        const restricaoDiv = document.getElementById('restricaoDiv');
-        const restricaoInput = document.getElementById('restricaotipo');
-        if (!restricaoDiv.classList.contains('hidden') && !restricaoInput.value) {
-          allFilled = false;
-        }
-        
-        continueButton.disabled = !allFilled;
-      });
+      form.addEventListener('input', validateForm);
       
       form.addEventListener('submit', function(event) {
         event.preventDefault(); 
-        window.location.href = 'resultado.html'; 
+        window.location.href = 'loading.html'; 
       });
     });
+
+    function validateForm() {
+      const form = document.getElementById('questionnaireForm');
+      const continueButton = document.getElementById('continueButton');
+      let allFilled = true;
+      const inputs = form.querySelectorAll('select[required], input[required]');
+
+      inputs.forEach(input => {
+        if (!input.value) {
+          allFilled = false;
+        }
+      });
+
+      continueButton.disabled = !allFilled;
+    }
   </script>
 </body>
 </html>
