@@ -17,7 +17,7 @@
       height: 100vh;
       background: linear-gradient(to bottom right, #000000, rgb(1, 78, 1));
     }
-    .botao{
+    .botao {
       display: flex;
       justify-content: center;
       align-items: center; 
@@ -53,27 +53,32 @@
       width: 100%;
       max-width: 100%; 
     }
-    .btn{
-        background-color: green;
-        color: white;
-        font-weight: 600;
-        margin-top: 2%;
-        width: 50%; 
-        max-width: 150px; 
+    .btn {
+      background-color: green;
+      color: white;
+      font-weight: 600;
+      margin-top: 2%;
+      width: 50%; 
+      max-width: 150px; 
     }
-    .btn:hover{
-        background-color: green;
-        color: black;
+    .btn:hover {
+      background-color: green;
+      color: black;
     }
     @media (min-width: 1440px) {
       .container {
-      padding: 30px;
-      transform: scale(1.2);
-      max-width: 800px; 
-      width: 100%;
-      text-align: center;
-      margin: auto;
+        padding: 30px;
+        transform: scale(1.2);
+        max-width: 800px; 
+        width: 100%;
+        text-align: center;
+        margin: auto;
+      }
     }
+    @media (max-width: 768px) {
+      body {
+        background: linear-gradient(to top right, #000000, rgb(1, 78, 1));
+      }
     }
   </style>
 </head>
