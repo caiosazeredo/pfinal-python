@@ -91,10 +91,10 @@
     <h1>Agora, precisamos saber sobre seus objetivos e rotina.</h1>
     <p class="small-text">Aqui, você deve responder com as opções que mais se adequam às suas metas e cotidiano.</p>
     
-    <form id="questionnaireForm">
+    <form method="POST">
       <div class="form-group">
-        <label for="principal" class="form-label">1. Qual é o seu principal objetivo?</label>
-        <select class="form-select" id="principal" required>
+        <label for="objetivo" class="form-label">1. Qual é o seu principal objetivo?</label>
+        <select class="form-select" id="objetivo" name="objetivo" required>
             <option disabled selected value="">Escolha uma opção</option>
             <option value="perder_gordura">Perder gordura corporal</option>
             <option value="aumentar_massa">Aumentar a massa muscular</option>
@@ -104,7 +104,7 @@
       </div>
       <div class="form-group">
         <label for="atividades" class="form-label">2. Faz atividades físicas?</label>
-            <select id="atividades" class="form-select" required>
+            <select id="atividades" name="atividades" class="form-select" required>
               <option disabled selected value="">Escolha uma opção</option>
               <option value="5x_semana">Sim, pelo menos 5x na semana</option>
               <option value="4x_semana">Sim, pelo menos 4x na semana</option>
@@ -116,7 +116,7 @@
       </div>
       <div class="form-group">
         <label for="musculacao" class="form-label">3. Faz treino de musculação?</label>
-            <select id="musculacao" class="form-select" required>
+            <select id="musculacao" name="musculacao" class="form-select" required>
               <option disabled selected value="">Escolha uma opção</option>
               <option value="5x_semana">Sim, pelo menos 5x na semana</option>
               <option value="4x_semana">Sim, pelo menos 4x na semana</option>
@@ -128,7 +128,7 @@
       </div>
       <div class="form-group">
         <label for="tempo_meta" class="form-label">4. Em quanto tempo você pretende atingir sua meta?</label>
-            <select id="tempo_meta" class="form-select" required>
+            <select id="tempo_meta" name="tempo_meta" class="form-select" required>
               <option disabled selected value="">Escolha uma opção</option>
               <option value="menor_tempo">No menor tempo possível (geralmente inclui rotina de difícil adaptação)</option>
               <option value="tempo_normal">Em tempo normal (geralmente inclui rotina de fácil adaptação)</option>
@@ -136,18 +136,18 @@
       </div>
       <div class="form-group">
         <label for="restricao" class="form-label">5. Você tem alguma alergia, restrição alimentar ou alimentos que não consome?</label>
-            <select id="restricao" class="form-select" required onchange="toggleRestricaoInput()">
+            <select id="restricao" name="restricao" class="form-select" required onchange="toggleRestricaoInput()">
               <option disabled selected value="">Escolha uma opção</option>
               <option value="sim">Sim, tenho restrições</option>
               <option value="nao">Não tenho restrições</option>
             </select>
       </div>
       <div class="form-group hidden" id="restricaoDiv">
-        <label for="restricaotipo" class="form-label">6. Qual é a sua restrição?</label>
-        <input type="text" class="form-control" id="restricaotipo" placeholder="Ex: Camarão, lactose..." required>
+        <label for="restricao_tipo" class="form-label">6. Qual é a sua restrição?</label>
+        <input type="text" class="form-control" id="restricao_tipo" name="restricao_tipo" placeholder="Ex: Camarão, lactose..." required>
       </div>
       <div>
-        <button type="submit" class="btn" id="continueButton" disabled>Continuar</button>
+        <button type="submit" class="btn" id="continueButton">Continuar</button>
       </div>
     </form>
   </div>
@@ -157,7 +157,7 @@
     function toggleRestricaoInput() {
       const restricaoSelect = document.getElementById('restricao');
       const restricaoDiv = document.getElementById('restricaoDiv');
-      const restricaoInput = document.getElementById('restricaotipo');
+      const restricaoInput = document.getElementById('restricao_tipo');
 
       if (restricaoSelect.value === 'sim') {
         restricaoDiv.classList.remove('hidden');
@@ -167,36 +167,35 @@
         restricaoInput.required = false;
         restricaoInput.value = '';
       }
-
-      validateForm();
     }
-
-    document.addEventListener('DOMContentLoaded', function() {
+      document.addEventListener('DOMContentLoaded', function() {
       const form = document.getElementById('questionnaireForm');
       const continueButton = document.getElementById('continueButton');
       
-      form.addEventListener('input', validateForm);
+      form.addEventListener('input', function() {
+        let allFilled = true;
+        const inputs = form.querySelectorAll('select[required]');
+        
+        inputs.forEach(input => {
+          if (!input.value) {
+            allFilled = false;
+          }
+        });
+        
+        const restricaoDiv = document.getElementById('restricaoDiv');
+        const restricaoInput = document.getElementById('restricaotipo');
+        if (!restricaoDiv.classList.contains('hidden') && !restricaoInput.value) {
+          allFilled = false;
+        }
+        
+        continueButton.disabled = !allFilled;
+      });
       
       form.addEventListener('submit', function(event) {
         event.preventDefault(); 
         window.location.href = 'loading.html'; 
       });
     });
-
-    function validateForm() {
-      const form = document.getElementById('questionnaireForm');
-      const continueButton = document.getElementById('continueButton');
-      let allFilled = true;
-      const inputs = form.querySelectorAll('select[required], input[required]');
-
-      inputs.forEach(input => {
-        if (!input.value) {
-          allFilled = false;
-        }
-      });
-
-      continueButton.disabled = !allFilled;
-    }
   </script>
 </body>
 </html>
