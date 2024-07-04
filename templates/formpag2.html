@@ -15,6 +15,7 @@
       justify-content: center;
       align-items: center; 
       height: 100vh;
+      background: linear-gradient(to bottom right, #000000, #004d00);
     }
     .container {
       padding: 30px;
@@ -78,7 +79,11 @@
         margin: auto;
       }
     }
-
+    @media (max-width: 768px) {
+      body {
+        background: linear-gradient(to top right, #000000, #004d00);
+      }
+    }
   </style>
 </head>
 <body>
@@ -86,7 +91,7 @@
     <h1>Agora, precisamos saber sobre seus objetivos e rotina.</h1>
     <p class="small-text">Aqui, você deve responder com as opções que mais se adequam às suas metas e cotidiano.</p>
     
-    <form method="POST">
+    <form id="form2" method="POST" action="{{ url_for('loading') }}">
       <div class="form-group">
         <label for="objetivo" class="form-label">1. Qual é o seu principal objetivo?</label>
         <select class="form-select" id="objetivo" name="objetivo" required>
@@ -163,33 +168,19 @@
         restricaoInput.value = '';
       }
     }
-      document.addEventListener('DOMContentLoaded', function() {
-      const form = document.getElementById('questionnaireForm');
-      const continueButton = document.getElementById('continueButton');
-      
-      form.addEventListener('input', function() {
-        let allFilled = true;
-        const inputs = form.querySelectorAll('select[required]');
-        
-        inputs.forEach(input => {
-          if (!input.value) {
-            allFilled = false;
-          }
-        });
-        
-        const restricaoDiv = document.getElementById('restricaoDiv');
-        const restricaoInput = document.getElementById('restricaotipo');
-        if (!restricaoDiv.classList.contains('hidden') && !restricaoInput.value) {
-          allFilled = false;
-        }
-        
-        continueButton.disabled = !allFilled;
-      });
-      
-      form.addEventListener('submit', function(event) {
-        event.preventDefault(); 
-        window.location.href = 'loading.html'; 
-      });
+
+    document.getElementById('form2').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const form = e.target;
+      const formData = new FormData(form);
+      const searchParams = new URLSearchParams();
+
+      for (const pair of formData) {
+        searchParams.append(pair[0], pair[1]);
+      }
+
+      const url = form.action + '?' + searchParams.toString();
+      window.location.href = url;
     });
   </script>
 </body>

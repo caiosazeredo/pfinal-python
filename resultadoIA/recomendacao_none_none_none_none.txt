@@ -1,0 +1,91 @@
+Gênero: None
+Peso: None kg
+Altura: None cm
+Idade: None anos
+Objetivo: aumentar_massa
+Atividades físicas: 4x_semana
+Musculação: 3x_semana
+Tempo para a meta: tempo_normal
+Restrição alimentar: nao
+Tipo de restrição: lactose
+
+
+Recomendação de Treino e Dieta:
+## Plano de Treinamento e Dieta para Ganho de Massa Muscular
+
+**Objetivo:** Ganho de Massa Muscular
+
+**Tempo:** Tempo Normal
+
+**Nível de Atividade:** 4x por semana (incluindo treino de musculação 3x por semana)
+
+**Restrição Alimentar:** Lactose
+
+**Dados:**
+
+* Sexo: None
+* Peso: None kg
+* Altura: Nonecm
+
+**Importante:** As informações sobre sexo, peso e altura são necessárias para um plano individualizado. Por favor, preencha esses dados para que eu possa te ajudar com um plano mais preciso.
+
+**Dieta:**
+
+* **Macro Nutrientes:** 
+    * Proteína: 1,6-2,2g por kg de peso corporal (ajuste de acordo com o seu peso)
+    * Carboidratos: 4-5g por kg de peso corporal (ajuste de acordo com o seu peso)
+    * Gordura: 0,8-1g por kg de peso corporal (ajuste de acordo com o seu peso)
+* **Alimentos:**
+    * **Priorize alimentos ricos em proteínas:** Frango, peixe, carne magra, ovos, leguminosas, tofu, leite de amêndoa/aveia/coco (sem lactose) e iogurtes sem lactose.
+    * **Consuma carboidratos complexos:** Batata doce, arroz integral, quinoa, aveia, pão integral, frutas.
+    * **Incorpore gorduras saudáveis:** Azeite de oliva, abacate, oleaginosas (castanhas, amêndoas, nozes), sementes (chia, linhaça).
+* **Refeições:**
+    * **6 refeições por dia:** 3 principais e 3 lanches.
+    * **Priorize a proteína em cada refeição.**
+    * **Beba bastante água ao longo do dia.**
+* **Suplementos (opcional):**
+    * Whey protein (sem lactose)
+    * Creatina
+    * BCAA
+* **Restrições:**
+    * Evite produtos com lactose (leite de vaca, queijo, iogurte).
+
+**Plano de Treinamento:**
+
+**Dias de Treino:** Segunda, Quarta e Sexta (ou ajuste de acordo com sua disponibilidade)
+
+**Treinos:**
+
+* **Cardio:**
+    * **2x por semana:**
+        * 30-40 minutos de caminhada rápida, corrida leve, natação, ciclismo ou qualquer atividade que você goste.
+        * Priorize intensidade moderada e duração mais longa.
+    * **1x por semana:**
+        * 20 minutos de HIIT (treinamento intervalado de alta intensidade).
+        * Alternar entre períodos curtos de alta intensidade e recuperação leve.
+
+* **Treino de Força (Musculação):**
+
+    * **Segunda-feira: Superior**
+        * **Peito:** Supino Reto, Supino Inclinado, Flexões, Crucifixo, Press de Peito com Halteres.
+        * **Ombros:** Desenvolvimento de Ombros com Halteres, Elevação Lateral, Elevação Frontal, Remada Alta.
+        * **Tríceps:** Triceps Testa, Rosca Francesa, Extensão de Tríceps com Halteres.
+
+    * **Quarta-feira: Inferior**
+        * **Perna:** Agachamento Livre, Agachamento Búlgaro, Leg Press, Stiff, Lunges, Deadlifts.
+        * **Panturrilha:** Panturrilha em pé, Panturrilha sentado.
+
+    * **Sexta-feira: Superior**
+        * **Costas:** Remada Baixa, Remada Alta, Pull-Ups, Remada Unilateral com Halteres, Pullover.
+        * **Biceps:** Rosca Direta, Rosca Inversa, Rosca Scott, Rosca Concentrada.
+
+**Dicas:**
+
+* **Aumente gradualmente o peso e a intensidade dos treinos ao longo do tempo.**
+* **Descanse entre 60-90 segundos entre os sets.**
+* **Durma pelo menos 8 horas por noite.**
+* **Faça alongamentos após cada treino.**
+* **Varie os exercícios e as intensidades para evitar platôs.**
+* **Seja consistente e paciente. Resultados levam tempo.**
+
+**Observação:** Este é um plano geral, e você pode precisar ajustá-lo de acordo com suas necessidades e preferências. É recomendável consultar um profissional de saúde ou um nutricionista para um plano individualizado.

@@ -1,0 +1,113 @@
+Gênero: masculino
+Peso: 77 kg
+Altura: 1.56 cm
+Idade: 23 anos
+Objetivo: aumentar_massa
+Atividades físicas: 4x_semana
+Musculação: 3x_semana
+Tempo para a meta: tempo_normal
+Restrição alimentar: nao
+Tipo de restrição: lactose
+
+
+Recomendação de Treino e Dieta:
+## Plano de Treinamento e Dieta para Ganho de Massa Muscular
+
+**Dados:**
+
+* Sexo biológico: Masculino
+* Idade: 23 anos
+* Altura: 1,56m
+* Peso: 77kg
+* Objetivo: Ganho de massa muscular
+* Atividade física: 4x por semana
+* Treino de musculação: 3x por semana
+* Tempo para atingir a meta: Normal
+* Restrição alimentar: Lactose
+
+**Dieta:**
+
+**Macronutrientes:**
+
+* **Proteína:** 1,6g por kg de peso corporal (123,2g)
+* **Carboidratos:** 3g por kg de peso corporal (231g)
+* **Gordura:** 1g por kg de peso corporal (77g)
+
+**Divisão das refeições:**
+
+* **Café da manhã:** 
+    * 2 fatias de pão integral com 1 ovo mexido e 1 fatia de queijo minas.
+    * 1 copo de leite de amêndoas ou soja.
+    * 1 banana.
+* **Lanche da manhã:**
+    * 1 iogurte grego natural (sem lactose) com frutas e granola.
+* **Almoço:**
+    * 150g de carne magra (frango, peixe ou carne vermelha).
+    * 1 xícara de arroz integral.
+    * 1 xícara de feijão.
+    * Salada verde à vontade.
+* **Lanche da tarde:**
+    * 1 pote de iogurte grego natural (sem lactose) com 1 colher de sopa de pasta de amendoim.
+* **Jantar:**
+    * 150g de batata doce cozida.
+    * 150g de frango grelhado ou peixe assado.
+    * Salada verde à vontade.
+* **Lanche antes de dormir:**
+    * Caseína (proteína do soro do leite sem lactose) ou 1 iogurte grego natural (sem lactose).
+
+**Suplementos:**
+
+* **Creatina:** 5g por dia, divididos em 2 doses.
+* **Whey protein:** 1 dose após o treino.
+
+**Observações:**
+
+* Beba bastante água ao longo do dia (cerca de 2 litros).
+* Inclua frutas e verduras em todas as refeições.
+* Varie os alimentos para garantir uma dieta completa e nutritiva.
+* Consulte um nutricionista para uma avaliação individualizada e plano alimentar personalizado.
+
+**Plano de Treinamento:**
+
+**Dias de Treino:**
+
+* **Segunda-feira:** Superior
+* **Terça-feira:** Cardio
+* **Quarta-feira:** Inferior
+* **Quinta-feira:** Descanso
+* **Sexta-feira:** Superior
+* **Sábado:** Cardio
+* **Domingo:** Descanso
+
+**Treino Superior:**
+
+* **Supino Inclinado:** 3 séries de 8-12 repetições.
+* **Remada Alta:** 3 séries de 8-12 repetições.
+* **Desenvolvimento Lateral:** 3 séries de 10-15 repetições.
+* **Elevação Lateral:** 3 séries de 10-15 repetições.
+* **Rosca Direta:** 3 séries de 10-15 repetições.
+* **Rosca Inversa:** 3 séries de 10-15 repetições.
+
+**Treino Inferior:**
+
+* **Agachamento Livre:** 3 séries de 8-12 repetições.
+* **Leg Press:** 3 séries de 8-12 repetições.
+* **Stiff:** 3 séries de 10-15 repetições.
+* **Step Up:** 3 séries de 10-15 repetições.
+* **Panturrilha:** 3 séries de 15-20 repetições.
+
+**Cardio:**
+
+* **Corrida:** 30-45 minutos, 3 vezes por semana.
+* **Natação:** 30-45 minutos, 3 vezes por semana.
+* **Bicicleta:** 30-45 minutos, 3 vezes por semana.
+
+**Observações:**
+
+* Aumente o peso gradualmente conforme você for ficando mais forte.
+* Descanse pelo menos 1 minuto entre as séries.
+* Faça um aquecimento de 5-10 minutos antes de cada treino.
+* Faça um alongamento de 5-10 minutos após cada treino.
+* Consulte um profissional de educação física para um plano de treinamento personalizado.
+
+**Importante:** Este plano é apenas um guia geral. Consulte um nutricionista e um profissional de educação física para um plano personalizado que atenda às suas necessidades e objetivos individuais.
