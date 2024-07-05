@@ -4,6 +4,7 @@ Altura: None cm
 Idade: None anos
 Objetivo: aumentar_massa
 Atividades físicas: 4x_semana
+<<<<<<< Updated upstream
 Musculação: 3x_semana
 Tempo para a meta: tempo_normal
 Restrição alimentar: nao
@@ -12,11 +13,22 @@ Tipo de restrição: lactose
 
 Recomendação de Treino e Dieta:
 ## Plano de Treinamento e Dieta para Ganho de Massa Muscular
+=======
+Musculação: 4x_semana
+Tempo para a meta: tempo_normal
+Restrição alimentar: sim
+Tipo de restrição: camarão
+
+
+Recomendação de Treino e Dieta:
+## Plano de Treino e Dieta para Ganho de Massa Muscular
+>>>>>>> Stashed changes
 
 **Objetivo:** Ganho de Massa Muscular
 
 **Tempo:** Tempo Normal
 
+<<<<<<< Updated upstream
 **Nível de Atividade:** 4x por semana (incluindo treino de musculação 3x por semana)
 
 **Restrição Alimentar:** Lactose
@@ -89,3 +101,156 @@ Recomendação de Treino e Dieta:
 * **Seja consistente e paciente. Resultados levam tempo.**
 
 **Observação:** Este é um plano geral, e você pode precisar ajustá-lo de acordo com suas necessidades e preferências. É recomendável consultar um profissional de saúde ou um nutricionista para um plano individualizado.
+=======
+**Nível de Atividade Física:** 4x por semana
+
+**Treino de Musculação:** 4x por semana
+
+**Restrição Alimentar:** Camarão
+
+**Importante:** Este plano é apenas um guia geral. Consulte um profissional de saúde ou nutricionista para um plano personalizado de acordo com suas necessidades e objetivos.
+
+**Dieta:**
+
+**Macronutrientes:**
+
+* **Proteína:** 1,6g por kg de peso corporal (ajuste para 2g por kg se necessário)
+* **Carboidratos:** 4g por kg de peso corporal
+* **Gordura:** 0,8g por kg de peso corporal
+
+**Exemplo de cardápio:**
+
+**Dia 1:**
+
+* **Café da manhã:** 2 fatias de pão integral com 1 ovo mexido, 1 banana e café com leite
+* **Lanche da manhã:** Frango desfiado com batata doce
+* **Almoço:** Arroz integral, feijão, bife de carne, salada de folhas verdes e legumes
+* **Lanche da tarde:** Iogurte grego com granola e frutas vermelhas
+* **Jantar:** Salmão grelhado com brócolis e purê de batata doce
+
+**Dia 2:**
+
+* **Café da manhã:** Aveia com leite de amêndoa, frutas secas e mel
+* **Lanche da manhã:** Shake de proteína com frutas
+* **Almoço:** Arroz integral, feijão, frango grelhado, salada de folhas verdes e legumes
+* **Lanche da tarde:** Banana com amendoim
+* **Jantar:** Omelete com espinafre e tomate
+
+**Dia 3:**
+
+* **Café da manhã:** Panquecas de aveia com frutas e mel
+* **Lanche da manhã:** Frango desfiado com batata doce
+* **Almoço:** Arroz integral, feijão, peixe grelhado, salada de folhas verdes e legumes
+* **Lanche da tarde:** Mix de castanhas e frutas secas
+* **Jantar:** Frango com legumes e quinoa
+
+**Dia 4:**
+
+* **Café da manhã:** Iogurte grego com granola e frutas vermelhas
+* **Lanche da manhã:** Frango desfiado com batata doce
+* **Almoço:** Arroz integral, feijão, carne bovina magra, salada de folhas verdes e legumes
+* **Lanche da tarde:** Maçã com queijo cottage
+* **Jantar:** Salmão assado com brócolis e batata doce
+
+**Dia 5:**
+
+* **Café da manhã:** Aveia com leite de amêndoa, frutas secas e mel
+* **Lanche da manhã:** Frango desfiado com batata doce
+* **Almoço:** Arroz integral, feijão, peixe grelhado, salada de folhas verdes e legumes
+* **Lanche da tarde:** Mix de castanhas e frutas secas
+* **Jantar:** Frango com legumes e quinoa
+
+**Dia 6:**
+
+* **Café da manhã:** Panquecas de aveia com frutas e mel
+* **Lanche da manhã:** Frango desfiado com batata doce
+* **Almoço:** Arroz integral, feijão, carne bovina magra, salada de folhas verdes e legumes
+* **Lanche da tarde:** Banana com amendoim
+* **Jantar:** Omelete com espinafre e tomate
+
+**Dia 7:**
+
+* **Café da manhã:** Iogurte grego com granola e frutas vermelhas
+* **Lanche da manhã:** Frango desfiado com batata doce
+* **Almoço:** Arroz integral, feijão, frango grelhado, salada de folhas verdes e legumes
+* **Lanche da tarde:** Mix de castanhas e frutas secas
+* **Jantar:** Salmão assado com brócolis e batata doce
+
+**Suplementos:**
+
+* Whey protein: 1-2 scoops por dia (após o treino ou em outro momento do dia)
+* Creatina: 5g por dia (pode ser usado durante ou após o treino)
+
+**Plano de Treino:**
+
+**Treino 1 (Peito, Tríceps e Abdômen):**
+
+* **Peito:**
+    * Supino Inclinado (3 séries de 8-12 repetições)
+    * Supino Declinado (3 séries de 8-12 repetições)
+    * Crucifixo Inclinado (3 séries de 10-15 repetições)
+* **Tríceps:**
+    * Triceps Testa (3 séries de 8-12 repetições)
+    * Triceps Francês (3 séries de 10-15 repetições)
+    * Triceps Corda (3 séries de 12-15 repetições)
+* **Abdômen:**
+    * Abdominal Reto (3 séries de 15-20 repetições)
+    * Abdominal Oblíquo (3 séries de 15-20 repetições)
+    * Prancha (3 séries de 30-60 segundos)
+
+**Treino 2 (Costas, Bíceps e Abdômen):**
+
+* **Costas:**
+    * Remada Baixa (3 séries de 8-12 repetições)
+    * Remada Alta (3 séries de 8-12 repetições)
+    * Pull-Down (3 séries de 10-15 repetições)
+* **Bíceps:**
+    * Rosca Direta (3 séries de 8-12 repetições)
+    * Rosca Inversa (3 séries de 10-15 repetições)
+    * Rosca Concentrada (3 séries de 12-15 repetições)
+* **Abdômen:**
+    * Abdominal Reto (3 séries de 15-20 repetições)
+    * Abdominal Oblíquo (3 séries de 15-20 repetições)
+    * Prancha (3 séries de 30-60 segundos)
+
+**Treino 3 (Pernas e Ombros):**
+
+* **Pernas:**
+    * Agachamento (3 séries de 8-12 repetições)
+    * Leg Press (3 séries de 10-15 repetições)
+    * Extensão de Joelho (3 séries de 12-15 repetições)
+    * Flexão de Joelho (3 séries de 12-15 repetições)
+* **Ombros:**
+    * Desenvolvimento de Ombros (3 séries de 8-12 repetições)
+    * Elevação Lateral (3 séries de 10-15 repetições)
+    * Elevação Frontal (3 séries de 12-15 repetições)
+
+**Treino 4 (Cardio e Abdômen):**
+
+* **Cardio:**
+    * Corrida, bicicleta, natação (30-45 minutos)
+* **Abdômen:**
+    * Abdominal Reto (3 séries de 15-20 repetições)
+    * Abdominal Oblíquo (3 séries de 15-20 repetições)
+    * Prancha (3 séries de 30-60 segundos)
+
+**Frequência de Treino:**
+
+* **Treino 1:** Segunda-feira
+* **Treino 2:** Terça-feira
+* **Treino 3:** Quarta-feira
+* **Treino 4:** Quinta-feira
+
+**Descanso:** Sexta-feira e Domingo
+
+**Sábado:** Treino leve de 30 minutos (opcional)
+
+**Observações:**
+
+* Ajuste a carga e as repetições de acordo com sua capacidade.
+* Descanse 60-90 segundos entre as séries.
+* Beba bastante água ao longo do dia.
+* Faça alongamentos antes e depois de cada treino.
+* Consulte um profissional de saúde antes de iniciar qualquer novo programa de exercícios.
+* Este plano é apenas um guia geral e pode ser modificado de acordo com as necessidades e objetivos individuais.
+>>>>>>> Stashed changes
