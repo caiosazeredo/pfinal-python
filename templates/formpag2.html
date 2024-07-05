@@ -91,7 +91,16 @@
     <h1>Agora, precisamos saber sobre seus objetivos e rotina.</h1>
     <p class="small-text">Aqui, você deve responder com as opções que mais se adequam às suas metas e cotidiano.</p>
     
+<<<<<<< Updated upstream
     <form id="form2" method="POST" action="{{ url_for('loading') }}">
+=======
+    <form method="POST">
+      <input type="hidden" name="genero" value="{{ genero }}">
+      <input type="hidden" name="peso" value="{{ peso }}">
+      <input type="hidden" name="altura" value="{{ altura }}">
+      <input type="hidden" name="idade" value="{{ idade }}">
+
+>>>>>>> Stashed changes
       <div class="form-group">
         <label for="objetivo" class="form-label">1. Qual é o seu principal objetivo?</label>
         <select class="form-select" id="objetivo" name="objetivo" required>
@@ -168,6 +177,7 @@
         restricaoInput.value = '';
       }
     }
+<<<<<<< Updated upstream
 
     document.getElementById('form2').addEventListener('submit', function(e) {
       e.preventDefault();
@@ -182,6 +192,8 @@
       const url = form.action + '?' + searchParams.toString();
       window.location.href = url;
     });
+=======
+>>>>>>> Stashed changes
   </script>
 </body>
 </html>
