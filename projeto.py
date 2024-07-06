@@ -90,9 +90,8 @@ def loading():
         with open(arquivo, "a") as file:
             file.write("\n\nRecomendação de Treino e Dieta:\n")
             file.write(recommendation)
-
-        return redirect(url_for('resultado', txt_file=nome_cadastro))
-
+            return redirect(url_for('resultado', txt_file=nome_cadastro))
+        
 @app.route('/resultado')
 def resultado():
         txt_file = request.args.get('txt_file')

@@ -27,7 +27,7 @@ body {
     position: absolute;
 }
 
-    
+
 .textos {
     position: absolute;
     top: 45%;
@@ -53,7 +53,7 @@ body {
     font-weight: 400;
 }
 
- 
+
 .btn1 {
     border-radius: 1000px;
     background-color: white;
@@ -99,7 +99,7 @@ body {
         font-size: 3.8vw;
         margin-top: 5%; 
     }
-    
+
     .textos h2 {
         font-family: 'Poppins', sans-serif;
         color: white;
@@ -147,7 +147,7 @@ body {
         font-size: 4.8vw;
         margin-top: 5%; 
     }
-    
+
     .textos h2 {
         font-family: 'Poppins', sans-serif;
         color: white;
@@ -171,11 +171,11 @@ body {
         margin-top: 5%; 
         transition: background-color 0.3s, color 0.3s;
     }
-    
+
 }
 
 @media (max-width: 600px) {
-    
+
     .img1 {
         display: none;
     }
